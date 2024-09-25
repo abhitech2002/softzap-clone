@@ -12,7 +12,7 @@ export default function DownloadSection() {
     <section className="bg-black py-12">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-start bg-black mt-4 space-y-8 lg:space-y-0 lg:space-x-8">
         {/* Left section */}
-        <div className="flex flex-col items-start lg:w-1/3 mb-6 lg:mb-0 mt-10 px-4 lg:px-0">
+        <div className="flex flex-col items-start lg:w-2/3 mb-6 lg:mb-0 mt-10 px-4 lg:px-0">
           <button className="bg-slate-800 group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-lg font-semibold leading-6 text-white inline-block mb-4 transition duration-300 ease-in-out hover:scale-105">
             <span className="absolute inset-0 overflow-hidden rounded-full">
               <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
