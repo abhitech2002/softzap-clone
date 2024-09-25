@@ -9,7 +9,7 @@ export default function DownloadSection() {
   const [hovering, setHovering] = useState(false);
 
   return (
-    <section className="bg-black py-12">
+    <section className="bg-black py-12 mx-auto p-10">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-start bg-black mt-4 space-y-8 lg:space-y-0 lg:space-x-8">
         {/* Left section */}
         <div className="flex flex-col items-start lg:w-2/3 mb-6 lg:mb-0 mt-10 px-4 lg:px-0">
