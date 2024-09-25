@@ -1,9 +1,7 @@
 import React from "react";
 import { Cover } from "@/components/ui/cover";
 
-interface HeroProps {}
-
-const Hero: React.FC<HeroProps> = () => {
+const Hero: React.FC = () => {
   return (
     <section className="bg-black from-blue-500 to-purple-600 text-white min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="h-auto w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center py-12">
