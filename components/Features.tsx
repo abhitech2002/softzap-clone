@@ -1,11 +1,15 @@
 "use client";
-import React from "react";
+import React,{useState} from "react";
 import Image from "next/image";
+import { Lens } from "./ui/lens";
 
 export default function LampDemo() {
+  const [hovering, setHovering] = useState(false);
+
   return (
     <div className="bg-black min-h-screen">
       <div className="flex items-center justify-center w-full h-auto mb-8 px-4">
+        <Lens hovering={hovering} setHovering={setHovering}>
         <Image
           src="https://kitpapa.net/softzap/wp-content/uploads/2024/04/Software-Hero-Image.webp"
           alt="Hero Image"
@@ -14,6 +18,7 @@ export default function LampDemo() {
           draggable={false}
           className="rounded-2xl object-cover max-w-full h-auto w-auto"
         />
+        </Lens>
       </div>
 
       <div className="text-center text-gray-300 mb-8 px-4">
