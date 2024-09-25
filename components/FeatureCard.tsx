@@ -1,7 +1,6 @@
 "use client";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { BsGraphUpArrow } from "react-icons/bs";
-import Image from "next/image";
 
 export default function FeatureCard() {
   return (
