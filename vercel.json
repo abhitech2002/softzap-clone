@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "index.js",
+        "app": "page.tsx",
         "use": "@vercel/next-export"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "app/page   .tsx"
+        "dest": "app/page.tsx"
       }
     ]
   }
