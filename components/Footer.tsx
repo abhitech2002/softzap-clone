@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const Footer: React.FC = () => {
   return (
     <motion.footer
-      className="bg-gray-900 py-8"
+      className="bg-black py-8"
       initial={{ y: 100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: 'easeInOut' }}
